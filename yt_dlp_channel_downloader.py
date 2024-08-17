@@ -85,7 +85,7 @@ def download_channel_videos(channel_url, num_videos=5, sort_by='date', extract_a
         download_video(url, output_dir=output_dir, extract_audio=extract_audio)
 
 def main():
-    channel_url = 'https://www.youtube.com/@101Barz'
+    channel_url = 'https://www.youtube.com/' # Enter channel link here
     num_videos = 5
     sort_by = 'popular'  # Change to 'date' for newest videos or 'popular' for most popular videos
     extract_audio = True  # Set to True to extract audio only
