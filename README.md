@@ -1,7 +1,7 @@
 
-# Project Title
+# YouTube Channel Download
 
-A brief description of what this project does and who it's for
+This is for anyone that's looking for a quick and efficient way to download (parts) of a youtube channel.
 
 
 ## Run Locally
@@ -19,18 +19,18 @@ Go to the project directory
 ```
 
 #### Edit the file to your needs
-Open the file in your preferred IDE and edit the channel link, sort and extraction type.
+Open the file in your preferred IDE and edit the channel link, sort, amout of videos and extraction type.
 
 ### Running your configured file
 #### Macos:
 For this you'll need to have python3 installed, which you can do using [Homebrew](https://brew.sh/) or via the official Python [website](https://www.python.org/downloads/)
 ```bash
-   python3 filename
+   python3 yt_dlp_channel_downloader.py
 ```
 
 #### Windows
 ```bash
-   py filename
+   py yt_dlp_channel_downloader.py
 ```
 ## Feedback
 
